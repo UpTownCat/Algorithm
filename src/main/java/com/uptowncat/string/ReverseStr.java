@@ -1,4 +1,4 @@
-package com.uptowncat.common;
+package com.uptowncat.string;
 
 /**
  * Created by UpTownCat on 2017/12/17.

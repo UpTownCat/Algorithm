@@ -39,5 +39,6 @@ public class SingleNumber {
         System.out.println(new SingleNumber().searchFromTwice(arr));
         int[] arr2 = {1, 2, 3, 1, 2, 4, 4, 5, 5, 5, 4, 2, 1, 3, 12, 3};
         System.out.println(new SingleNumber().searchFromThree(arr2));
+        System.out.println(0 & 8 | 4);
     }
 }

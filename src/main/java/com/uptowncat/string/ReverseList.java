@@ -1,6 +1,4 @@
-package com.uptowncat.common;
-
-import org.omg.CORBA.NO_IMPLEMENT;
+package com.uptowncat.string;
 
 /**
  * Created by UpTownCat on 2017/12/17.
