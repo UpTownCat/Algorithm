@@ -49,15 +49,15 @@ public class PermutationStr {
      * @return
      */
     private boolean handle(char[] chars) {
-        int i = 0;
         int n = chars.length;
+        int i = n - 2;
         int j = n - 1;
         // 找到第一个chars[i] < chars[i+1]
-        while (i < n - 1 && chars[i] >= chars[i+1]) {
-            i++;
+        while (i >= 0 && chars[i] > chars[i+1]) {
+            i--;
         }
 
-        if (i == n-1) {
+        if (i == -1) {
             return false;
         }
 
