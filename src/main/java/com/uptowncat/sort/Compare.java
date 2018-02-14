@@ -11,7 +11,7 @@ public class Compare {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = (int)(Math.random() * 10000);
         }
-        
+
         int[] sysCopy = Utils.copy(arr);
         long sysStart = System.currentTimeMillis();
         Arrays.sort(sysCopy);
