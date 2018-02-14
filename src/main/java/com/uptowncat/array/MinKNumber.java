@@ -7,6 +7,7 @@ import java.util.Arrays;
 
 /**
  * Created by shiwang.xie on 2018/1/1.
+ * find min k numbers from arr
  */
 public class MinKNumber {
 
