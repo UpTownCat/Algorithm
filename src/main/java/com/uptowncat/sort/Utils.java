@@ -57,17 +57,15 @@ public class Utils {
      */
     public static int split(int arr[], int start, int end) {
         int k = arr[start];
-        int left = start + 1;
+        int left = start;
         int right = end;
         while (left < right) {
-            while (left < right && arr[left] <= k) left++;
             while (right > left && arr[right] > k) right--;
+            while (left < right && arr[left] <= k) left++;
             Utils.swap(arr, left, right);
         }
-        if (arr[left] < k) {
-            arr[start] = arr[left];
-            arr[left] = k;
-        }
+        arr[start] = arr[left];
+        arr[left] = k;
         return left;
     }
 }
